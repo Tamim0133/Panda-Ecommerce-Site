@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- adding stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- linking css file -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="images/logo.png"
+                alt=""
+                width="160"
+                height="28"
+                class="d-inline-block align-text-top"
+            /></a>
+
+            <a class="navbar-brand" href="#"> </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#shoes">Shoes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#bags">Backpacks</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#subscribe" tabindex="-1"
+                    >Subscribe</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <!-- making a image carousel -->
+    <section class="container mt-5">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide container"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner panda-bg-info">
+          <div class="carousel-item active">
+            <div class="row pt-2 ps-2 ms-2 pe-3 d-flex align-items-center">
+              <div class="col-lg-7">
+                <h1 class="mb-3">Cool Headphones</h1>
+                <p>
+                  This is the Best Headphones in the world which you can ever
+                  get.
+                </p>
+                <h1>$420</h1>
+                <button class="btn mb-5 buy-button text-white fs-4 mt-3">
+                  Buy Now >>
+                </button>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/banner-images/headphone.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row pt-2 ms-3 ps-2 pe-3 d-flex align-items-center">
+              <div class="col-lg-7">
+                <h1 class="mb-3">X-box</h1>
+                <p>
+                  This is the Quality X-box in the world which you can ever get.
+                </p>
+                <h1>$220</h1>
+                <button class="btn mb-5 buy-button text-white fs-4 mt-3">
+                  Buy Now >>
+                </button>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/banner-images/xbox.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row pt-2 ms-3 ps-2 pe-3 d-flex align-items-center">
+              <div class="col-lg-7">
+                <h1 class="mb-3">Brand TV</h1>
+                <p>
+                  This is the Best Television in the world which you can ever
+                  get.
+                </p>
+                <h1>$160</h1>
+                <button class="btn mb-5 buy-button text-white fs-4 mt-3">
+                  Buy Now >>
+                </button>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/banner-images/tv.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- making the body starting    -->
+    <main class="container">
+      <div class="container overflow-hidden">
+        <div class="row gy-5 gx-5 my-5">
+          <div class="col-lg-4">
+            <div
+              class="
+                p-3
+                border
+                bg-warning
+                d-flex
+                justify-content-between
+                align-items-center
+                rounded-3
+              "
+            >
+              <div><h1>Watch</h1></div>
+              <div>
+                <img class="w-75" src="images/categories/watch.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="
+                p-3
+                border
+                bg-success
+                d-flex
+                justify-content-between
+                align-items-center
+                rounded-3
+              "
+            >
+              <div><h1>Bag</h1></div>
+              <div>
+                <img class="w-75" src="images/categories/bag.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="
+                p-3
+                border
+                bg-info
+                d-flex
+                justify-content-between
+                align-items-center
+                rounded-3
+              "
+            >
+              <div><h1>Shoes</h1></div>
+              <div>
+                <img class="w-75" src="images/categories/shoes.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- making a shoes list -->
+      <section>
+        <h1>Shoes</h1>
+        <div id="shoes" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card shadow border-0 h-100">
+              <img
+                src="images/shoes/shoe-1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jhinku Joota</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <h2>$360</h2>
+              </div>
+              <div class="ms-5">
+                <button class="btn mb-5 buy-button text-white">
+                  Buy Now >>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow border-0 h-100">
+              <img
+                src="images/shoes/shoe-2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jomidari Joota</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Pariatur, explicabo.
+                </p>
+                <h2>$260</h2>
+              </div>
+              <div class="ms-5">
+                <button class="btn mb-5 buy-button text-white">
+                  Buy Now >>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow h-100">
+              <img
+                src="images/shoes/shoe-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Biya bari Joota</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+                <h2>$320</h2>
+              </div>
+              <div class="ms-5">
+                <button class="btn mb-5 buy-button text-white">
+                  Buy Now >>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bags List In card  -->
+      <section id="bags" class="mt-5">
+        <h1 class="mb-4">Bags</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card shadow border-0 h-100">
+              <img src="images/bags/bag-1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Laaltu Bag</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <h2>$460</h2>
+              </div>
+              <div class="ms-5">
+                <button class="btn mb-5 buy-button text-white">
+                  Buy Now >>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow border-0 h-100">
+              <img src="images/bags/bag-2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Niltu Bag</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Pariatur, explicabo.
+                </p>
+                <h2>$360</h2>
+              </div>
+              <div class="ms-5">
+                <button class="mb-5 buy-button text-white">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow h-100">
+              <img src="images/bags/bag-3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kallu Bag</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+                <h2>$520</h2>
+              </div>
+              <div class="ms-5">
+                <button class="btn mb-5 buy-button text-white">
+                  Buy Now >>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- subscribe  -->
+      <section
+        style="height: 300px"
+        id="subscribe"
+        class="
+          container
+          my-5
+          d-flex
+          justify-content-center
+          align-items-center
+          bg-subscribe
+          rounded-3
+        "
+      >
+        <div class="mb-3">
+          <h1>Stay in Touch</h1>
+          <p>
+            Subscribe by giving your Email address and get all the upcomming
+            notifications..
+          </p>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter Email"
+            required
+          />
+          <br />
+          <button class="buy-button text-white fs-5">SUBMIT</button>
+        </div>
+      </section>
+    </main>
+    <!-- adding javascrip  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

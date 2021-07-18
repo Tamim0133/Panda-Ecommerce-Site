@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.enableDebugLogs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editor.scrollToSwitchTabs": true,
+  "problems.showCurrentInStatus": true,
+  "zenMode.hideStatusBar": false
+}
